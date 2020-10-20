@@ -1,0 +1,12 @@
+#program to find the given string palindrome or not
+x = raw_input('enetr any string  :')
+y = ''
+for i in range(0, len(x)):
+    y = x[i] + y
+print 'reverse of given string :', y
+if(y==x):
+    print 'given string is palindrome'
+
+else:
+    print 'given string is not a palindrome'
+

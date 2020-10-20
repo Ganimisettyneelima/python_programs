@@ -1,0 +1,15 @@
+#removing word from the givrn sentance
+x=raw_input('enter any sentence :')
+r=raw_input('enter the word to remove :')
+y=x.split()
+k=''
+for i in range(0,len(y)):
+    if(y[i]!=r):
+      k=k+' '+y[i]
+
+print k
+
+
+
+        #k=y[i]+' '+k
+#print 'reverse of sentence :',k

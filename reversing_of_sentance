@@ -1,0 +1,7 @@
+#reversing of a sentence
+x=raw_input('enter any sentence :')
+y=x.split()
+k=''
+for i in range(0,len(y)):
+    k=y[i]+' '+k
+print 'reverse of sentence :',k

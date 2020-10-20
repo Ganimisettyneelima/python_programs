@@ -1,0 +1,7 @@
+x = raw_input('enetr any string  :')
+c=raw_input('enetr any character :')
+y = ''
+for i in range(0, len(x)):
+    if(x[i]!=c):
+        y =y+ x[i]
+print 'after removing the character from string :', y
